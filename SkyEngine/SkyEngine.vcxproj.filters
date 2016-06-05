@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{435f4d36-3e71-42bb-afe6-cb5c03b97bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Character">
+      <UniqueIdentifier>{308b20ab-41fb-4ed7-ac0a-4099044701e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{9657c966-e4a7-44d8-81de-9b487b29b286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Character">
+      <UniqueIdentifier>{9f446cb7-f445-4603-ba6d-4c8f17626ee2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Calc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Entity\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Entity\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Foreground.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Entity\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files\Entity\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\Entity\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entity\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entity\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\Entity\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files\Entity\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Foreground.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Data\Audio\back.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Data\Audio\click.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Data\Audio\enemyDown.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Data\Audio\enemyHurt.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Data\Audio\injure.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Data\Audio\shoot.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Shaders\frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Data\Shaders\vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\Textures\background.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\cursor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\enemy.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\foreground.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\life.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\logo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\lose.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\play.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\player.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\projectile.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\quit.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\score.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\ship.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\Textures\win.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
